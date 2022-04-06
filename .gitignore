@@ -1,0 +1,749 @@
+.DS_Store
+1_proteins.fasta
+2_trimmed.fasta
+3_hydrofilter.fasta
+4_acidfilter.fasta
+5_glypro.fasta
+6_ratio.fasta
+7_esifilters.fasta
+All_Ugis+SaUgis.fasta
+p56phages.fasta
+s6_genome.fasta
+ugi_phages.fasta
+__pycache__/esi_filters.cpython-39.pyc
+__pycache__/general_filters.cpython-39.pyc
+__pycache__/genome_inputs.cpython-39.pyc
+__pycache__/lenient_esi_filters.cpython-39.pyc
+__pycache__/p56_filters.cpython-39.pyc
+__pycache__/residue_filters.cpython-39.pyc
+__pycache__/sequence_analysis.cpython-39.pyc
+__pycache__/sequence_inputs.cpython-39.pyc
+__pycache__/sequence_processing.cpython-39.pyc
+__pycache__/single_inputs.cpython-39.pyc
+__pycache__/window_analysis.cpython-39.pyc
+__pycache__/window_filters.cpython-39.pyc
+Backups + Old Files/filter_functions.py
+Backups + Old Files/Rigel's Files/all_functions_PLEASE_USE_THIS.pyc
+Backups + Old Files/Rigel's Files/big_seqs.py
+Backups + Old Files/Rigel's Files/full_small_seqs.py
+Backups + Old Files/Rigel's Files/How to.txt
+Backups + Old Files/Rigel's Files/length_check.py
+Backups + Old Files/Rigel's Files/phir137_epi.py
+Backups + Old Files/Rigel's Files/phir137.fasta
+Backups + Old Files/Rigel's Files/readme.txt
+Backups + Old Files/Rigel's Files/Rigel_HeuristicsHitsGiantMyo.txt
+Backups + Old Files/Rigel's Files/sa_ugi_check.py
+Backups + Old Files/Rigel's Files/small_seqs.py
+Backups + Old Files/Rigel's Files/test.py
+Backups + Old Files/Rigel's Files/ugi_check.py
+Backups + Old Files/Rigel's Files/ugi_vs_KC595515.1.txt
+Backups + Old Files/Rigel's Files/All files/all_functions_PLEASE_USE_THIS.py
+Backups + Old Files/Rigel's Files/All files/all_functions_PLEASE_USE_THIS.pyc
+Backups + Old Files/Rigel's Files/All files/all_isoelectric_points.txt
+Backups + Old Files/Rigel's Files/All files/big_seqs.py
+Backups + Old Files/Rigel's Files/All files/dev_check_full.py
+Backups + Old Files/Rigel's Files/All files/dev_filtered_check.py
+Backups + Old Files/Rigel's Files/All files/doubles.txt
+Backups + Old Files/Rigel's Files/All files/filters.py
+Backups + Old Files/Rigel's Files/All files/finder_functions.py
+Backups + Old Files/Rigel's Files/All files/forward_1_iso.py
+Backups + Old Files/Rigel's Files/All files/forward_2_iso.py
+Backups + Old Files/Rigel's Files/All files/forward_3_iso.py
+Backups + Old Files/Rigel's Files/All files/full_small_seqs.py
+Backups + Old Files/Rigel's Files/All files/functions.py
+Backups + Old Files/Rigel's Files/All files/How to.txt
+Backups + Old Files/Rigel's Files/All files/isoelectricpoint.py
+Backups + Old Files/Rigel's Files/All files/length_check.py
+Backups + Old Files/Rigel's Files/All files/motifs.py
+Backups + Old Files/Rigel's Files/All files/neg_score_check_full.py
+Backups + Old Files/Rigel's Files/All files/neg_score_check.py
+Backups + Old Files/Rigel's Files/All files/path of Rigel's data ion server.txt
+Backups + Old Files/Rigel's Files/All files/phir137_epi.py
+Backups + Old Files/Rigel's Files/All files/phir137.fasta
+Backups + Old Files/Rigel's Files/All files/readme.txt
+Backups + Old Files/Rigel's Files/All files/redone_finder_functions_phi.py
+Backups + Old Files/Rigel's Files/All files/redone_finder_functions.py
+Backups + Old Files/Rigel's Files/All files/reverse_4_iso.py
+Backups + Old Files/Rigel's Files/All files/reverse_5_iso.py
+Backups + Old Files/Rigel's Files/All files/reverse_6_iso.py
+Backups + Old Files/Rigel's Files/All files/Rigel_HeuristicsHitsGiantMyo.txt
+Backups + Old Files/Rigel's Files/All files/rk_check_full.py
+Backups + Old Files/Rigel's Files/All files/rk_filtered_check.py
+Backups + Old Files/Rigel's Files/All files/sa_ugi_check.py
+Backups + Old Files/Rigel's Files/All files/small_seqs.py
+Backups + Old Files/Rigel's Files/All files/test.py
+Backups + Old Files/Rigel's Files/All files/ugi_check.py
+Backups + Old Files/Rigel's Files/All files/ugi_vs_KC595515.1.txt
+Backups + Old Files/Rigel's Files/All files/venn_diagram_2.py
+Backups + Old Files/Rigel's Files/All files/venn_diagram.py
+Backups + Old Files/Rigel's Files/Filter Checks/doubles.txt
+Backups + Old Files/Rigel's Files/Filter Outputs/all_isoelectric_points.txt
+Backups + Old Files/Rigel's Files/Filter Outputs/dev_check_full.py
+Backups + Old Files/Rigel's Files/Filter Outputs/dev_filtered_check.py
+Backups + Old Files/Rigel's Files/Filter Outputs/forward_1_iso.py
+Backups + Old Files/Rigel's Files/Filter Outputs/forward_2_iso.py
+Backups + Old Files/Rigel's Files/Filter Outputs/forward_3_iso.py
+Backups + Old Files/Rigel's Files/Filter Outputs/neg_score_check_full.py
+Backups + Old Files/Rigel's Files/Filter Outputs/neg_score_check.py
+Backups + Old Files/Rigel's Files/Filter Outputs/reverse_4_iso.py
+Backups + Old Files/Rigel's Files/Filter Outputs/reverse_5_iso.py
+Backups + Old Files/Rigel's Files/Filter Outputs/reverse_6_iso.py
+Backups + Old Files/Rigel's Files/Filter Outputs/rk_check_full.py
+Backups + Old Files/Rigel's Files/Filter Outputs/rk_filtered_check.py
+Backups + Old Files/Rigel's Files/Functions/all_functions_PLEASE_USE_THIS.py
+Backups + Old Files/Rigel's Files/Functions/filters.py
+Backups + Old Files/Rigel's Files/Functions/finder_functions.py
+Backups + Old Files/Rigel's Files/Functions/functions.py
+Backups + Old Files/Rigel's Files/Functions/isoelectricpoint.py
+Backups + Old Files/Rigel's Files/Functions/motifs.py
+Backups + Old Files/Rigel's Files/Functions/redone_finder_functions_phi.py
+Backups + Old Files/Rigel's Files/Functions/redone_finder_functions.py
+Backups + Old Files/Rigel's Files/Functions/venn_diagram_2.py
+Backups + Old Files/Rigel's Files/Functions/venn_diagram.py
+Filter Runs/AR9 Filters/v1 Strict/ar9_acidfilter.fasta
+Filter Runs/AR9 Filters/v1 Strict/ar9_esi.fasta
+Filter Runs/AR9 Filters/v1 Strict/ar9_esidist.fasta
+Filter Runs/AR9 Filters/v1 Strict/ar9_glyprofilter.fasta
+Filter Runs/AR9 Filters/v1 Strict/ar9_hydrofilter.fasta
+Filter Runs/AR9 Filters/v1 Strict/ar9_pifilter.fasta
+Filter Runs/AR9 Filters/v1 Strict/ar9_proteins.fasta
+Filter Runs/AR9 Filters/v1 Strict/ar9_ratio.fasta
+Filter Runs/AR9 Filters/v1 Strict/ar9_sizefilter.fasta
+Filter Runs/AR9 Filters/v1 Strict/ar9_trimmed.fasta
+Filter Runs/AR9 Filters/v1 Strict/ar9-acidfree.fasta
+Filter Runs/AR9 Filters/v2 Lenient/ar9_acidfilter.fasta
+Filter Runs/AR9 Filters/v2 Lenient/ar9_esi.fasta
+Filter Runs/AR9 Filters/v2 Lenient/ar9_esidist.fasta
+Filter Runs/AR9 Filters/v2 Lenient/ar9_glyprofilter.fasta
+Filter Runs/AR9 Filters/v2 Lenient/ar9_hydrofilter.fasta
+Filter Runs/AR9 Filters/v2 Lenient/ar9_pifilter.fasta
+Filter Runs/AR9 Filters/v2 Lenient/ar9_proteins.fasta
+Filter Runs/AR9 Filters/v2 Lenient/ar9_ratio.fasta
+Filter Runs/AR9 Filters/v2 Lenient/ar9_sizefilter.fasta
+Filter Runs/AR9 Filters/v2 Lenient/ar9_trimmed.fasta
+Filter Runs/AR9 Filters/v2 Lenient/ar9-acidfree.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_acidfilter.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_esi.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_esiacidic.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_esiaspglu.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_esidist.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_esiglypro.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_glyprofilter.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_hydrofilter.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_pifilter.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_proteins.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_ratio.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_sizefilter.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9_trimmed.fasta
+Filter Runs/AR9 Filters/v3 Mixed/ar9-acidfree.fasta
+Filter Runs/AR9 Filters/v4 Mixed/3_sizefilter.fasta
+Filter Runs/AR9 Filters/v4 Mixed/4_pifilter.fasta
+Filter Runs/AR9 Filters/v4 Mixed/5_hydrofilter.fasta
+Filter Runs/AR9 Filters/v4 Mixed/6_acidfilter.fasta
+Filter Runs/AR9 Filters/v4 Mixed/7_glyprofilter.fasta
+Filter Runs/AR9 Filters/v4 Mixed/8_ratio.fasta
+Filter Runs/AR9 Filters/v4 Mixed/9_esi.fasta
+Filter Runs/AR9 Filters/v4 Mixed/10_esidist.fasta
+Filter Runs/AR9 Filters/v4 Mixed/11_esiglypro.fasta
+Filter Runs/AR9 Filters/v4 Mixed/12_esiaspglu.fasta
+Filter Runs/AR9 Filters/v4 Mixed/13_esiacidic.fasta
+Filter Runs/AR9 Filters/v4 Mixed/14-acidfree.fasta
+Filter Runs/AR9 Filters/v5 No Size Filters/4_pifilter.fasta
+Filter Runs/AR9 Filters/v5 No Size Filters/5_hydrofilter.fasta
+Filter Runs/AR9 Filters/v5 No Size Filters/6_acidfilter.fasta
+Filter Runs/AR9 Filters/v5 No Size Filters/7_glyprofilter.fasta
+Filter Runs/AR9 Filters/v5 No Size Filters/8_ratio.fasta
+Filter Runs/AR9 Filters/v5 No Size Filters/10_esi.fasta
+Filter Runs/AR9 Filters/v5 No Size Filters/11_esidist.fasta
+Filter Runs/AR9 Filters/v5 No Size Filters/12_esiglypro.fasta
+Filter Runs/AR9 Filters/v5 No Size Filters/13_esiaspglu.fasta
+Filter Runs/AR9 Filters/v5 No Size Filters/14_esiacidic.fasta
+Filter Runs/AR9 Filters/v5 No Size Filters/15-acidfree.fasta
+Filter Runs/AR9 Filters/v6 No Size No pI Filter/5_hydrofilter.fasta
+Filter Runs/AR9 Filters/v6 No Size No pI Filter/6_acidfilter.fasta
+Filter Runs/AR9 Filters/v6 No Size No pI Filter/7_glyprofilter.fasta
+Filter Runs/AR9 Filters/v6 No Size No pI Filter/8_ratio.fasta
+Filter Runs/AR9 Filters/v6 No Size No pI Filter/10_esi.fasta
+Filter Runs/AR9 Filters/v6 No Size No pI Filter/11_esidist.fasta
+Filter Runs/AR9 Filters/v6 No Size No pI Filter/12_esiglypro.fasta
+Filter Runs/AR9 Filters/v6 No Size No pI Filter/13_esiaspglu.fasta
+Filter Runs/AR9 Filters/v6 No Size No pI Filter/14_esiacidic.fasta
+Filter Runs/AR9 Filters/v6 No Size No pI Filter/15-acidfree.fasta
+Filter Runs/Internexus Runs/v1 No Size No pI Filter/5_glyprofilter.fasta
+Filter Runs/Internexus Runs/v1 No Size No pI Filter/7_esi.fasta
+Filter Runs/Internexus Runs/v1 No Size No pI Filter/9_esiglypro.fasta
+Filter Runs/Internexus Runs/v1 No Size No pI Filter/10_esiaspglu.fasta
+Filter Runs/Internexus Runs/v1 No Size No pI Filter/11_esiacidic.fasta
+Filter Runs/Internexus Runs/v1 No Size No pI Filter/12-acidfree.fasta
+Filter Runs/LPJP1 Filters/v1 Single Genome Lenient/3_hydro.fasta
+Filter Runs/LPJP1 Filters/v1 Single Genome Lenient/7_esi.fasta
+Filter Runs/LPJP1 Filters/v1 Single Genome Lenient/8_esidistance.fasta
+Filter Runs/LPJP1 Filters/v1 Single Genome Lenient/9_esiacidic.fasta
+Filter Runs/LPJP1 Filters/v1 Single Genome Lenient/10_esiaspglu.fasta
+Filter Runs/LPJP1 Filters/v1 Single Genome Lenient/lenienthits.fasta
+Filter Runs/LPJP1 Filters/v2 Bulk Genome Strict/3_hydro.fasta
+Filter Runs/LPJP1 Filters/v2 Bulk Genome Strict/7_esi.fasta
+Filter Runs/LPJP1 Filters/v2 Bulk Genome Strict/8_esidistance.fasta
+Filter Runs/LPJP1 Filters/v2 Bulk Genome Strict/9_esiacidic.fasta
+Filter Runs/LPJP1 Filters/v2 Bulk Genome Strict/10_esiaspglu.fasta
+Filter Runs/LPJP1 Filters/v2 Bulk Genome Strict/11_esiglypro.fasta
+Filter Runs/LPJP1 Filters/v2 Bulk Genome Strict/12_edmotifs.fasta
+Filter Runs/LPJP1 Filters/v2 Bulk Genome Strict/stricthits.fasta
+Filter Runs/Myoviridae Genome Filters/Final Runs with GC Filter/highgc.fasta
+Filter Runs/Myoviridae Genome Filters/Final Runs with GC Filter/lowgc.fasta
+Filter Runs/Myoviridae Genome Filters/Final Runs with GC Filter/medgc.fasta
+Filter Runs/Myoviridae Genome Filters/Final Runs with GC Filter/myo_v2_jumbo_highgc.fasta
+Filter Runs/Myoviridae Genome Filters/Final Runs with GC Filter/myo_v2_jumbo_lowgc.fasta
+Filter Runs/Myoviridae Genome Filters/Final Runs with GC Filter/myo_v2_jumbo_medgc.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/3_sizefilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/4_pifilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/5_hydrofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/6_acidfilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/7_glyprofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/8_ratio.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/9_edmotifs.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/10_esi.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/11_esidist.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/12_esiglypro.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/13_esiaspglu.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/14_esiacidic.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v10 Stricter + ED Filter + JUMBO ONLY + HIGH GC/15-acidfree.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/3_sizefilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/4_pifilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/5_hydrofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/6_acidfilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/7_glyprofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/8_ratio.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/9_edmotifs.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/10_esi.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/11_esidist.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/12_esiglypro.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/13_esiaspglu.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/14_esiacidic.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v4 Strict + ED Filter + myo_v2/15-acidfree.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/3_sizefilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/4_pifilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/5_hydrofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/6_acidfilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/7_glyprofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/8_ratio.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/9_edmotifs.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/10_esi.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/11_esidist.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/12_esiglypro.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/13_esiaspglu.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/14_esiacidic.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v5 Stricter + ED Filter + myo_v2/15-acidfree.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/3_sizefilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/4_pifilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/5_hydrofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/6_acidfilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/7_glyprofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/8_ratio.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/9_edmotifs.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/10_esi.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/11_esidist.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/12_esiglypro.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/13_esiaspglu.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/14_esiacidic.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v6 Stricter + ED Filter + myo_v2 JUMBO ONLY/15-acidfree.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/3_sizefilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/4_pifilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/5_hydrofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/6_acidfilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/7_glyprofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/8_ratio.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/9_edmotifs.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/10_esi.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/11_esidist.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/12_esiglypro.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/13_esiaspglu.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/14_esiacidic.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v7 Stricter + ED Filter + myo_v2 SMALL ONLY/15-acidfree.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/3_sizefilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/4_pifilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/5_hydrofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/6_acidfilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/7_glyprofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/8_ratio.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/9_edmotifs.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/10_esi.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/11_esidist.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/12_esiglypro.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/13_esiaspglu.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/14_esiacidic.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v8 Stricter + ED Filter + JUMBO ONLY + LOW GC/15-acidfree.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/3_sizefilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/4_pifilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/5_hydrofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/6_acidfilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/7_glyprofilter.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/8_ratio.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/9_edmotifs.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/10_esi.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/11_esidist.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/12_esiglypro.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/13_esiaspglu.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/14_esiacidic.fasta
+Filter Runs/Myoviridae Genome Filters/New Myo File/v9 Stricter + ED Filter + JUMBO ONLY + MED GC/15-acidfree.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/3_sizefilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/4_pifilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/5_hydrofilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/6_acidfilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/7_glyprofilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/8_ratio.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/10_esi.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/11_esidist.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/12_esiglypro.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/13_esiaspglu.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/14_esiacidic.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v1 Strict/15-acidfree.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/3_sizefilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/4_pifilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/5_hydrofilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/6_acidfilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/7_glyprofilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/8_ratio.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/9_edmotifs.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/10_esi.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/11_esidist.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/12_esiglypro.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/13_esiaspglu.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/14_esiacidic.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v2 Strict + ED Filter/15-acidfree.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/3_sizefilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/4_pifilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/5_hydrofilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/6_acidfilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/7_glyprofilter.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/8_ratio.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/9_edmotifs.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/10_esi.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/11_esidist.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/12_esiglypro.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/13_esiaspglu.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/14_esiacidic.fasta
+Filter Runs/Myoviridae Genome Filters/Old Myo File/v3 Stricter + ED Filter/15-acidfree.fasta
+Filter Runs/Myoviridae v3 No Size Filters/hits0-25.fasta
+Filter Runs/Myoviridae v3 No Size Filters/hits25-30.fasta
+Filter Runs/Myoviridae v3 No Size Filters/hits30-35.fasta
+Filter Runs/Myoviridae v3 No Size Filters/hits35-40.fasta
+Filter Runs/Myoviridae v3 No Size Filters/hits40-45.fasta
+Filter Runs/Myoviridae v3 No Size Filters/hits45+.fasta
+Filter Runs/Myoviridae v4 Fixed ESI No Size No pI/myo_25hits.fasta
+Filter Runs/Myoviridae v4 Fixed ESI No Size No pI/myo_30hits.fasta
+Filter Runs/Myoviridae v4 Fixed ESI No Size No pI/myo_35hits.fasta
+Filter Runs/Myoviridae v4 Fixed ESI No Size No pI/myo_40hits.fasta
+Filter Runs/Myoviridae v4 Fixed ESI No Size No pI/myo_45+hits.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/3_sizefilter.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/4_pifilter.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/5_hydrofilter.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/6_acidfilter.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/7_glyprofilter.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/8_ratio.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/9_edmotifs.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/10_esi.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/11_esidist.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/12_esiglypro.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/13_esiaspglu.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/14_esiacidic.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Lenient ESI/lenient+lenient_esi.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/3_sizefilter.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/4_pifilter.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/5_hydrofilter.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/6_acidfilter.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/7_glyprofilter.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/8_ratio.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/9_edmotifs.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/10_esi.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/11_esidist.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/12_esiglypro.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/13_esiaspglu.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/14_esiacidic.fasta
+Filter Runs/New Myoviridae Genomes/Lenient + Strict ESI/lenient+strict_esi.fasta
+Filter Runs/New Myoviridae Genomes/Strict/3_sizefilter.fasta
+Filter Runs/New Myoviridae Genomes/Strict/4_pifilter.fasta
+Filter Runs/New Myoviridae Genomes/Strict/5_hydrofilter.fasta
+Filter Runs/New Myoviridae Genomes/Strict/6_acidfilter.fasta
+Filter Runs/New Myoviridae Genomes/Strict/7_glyprofilter.fasta
+Filter Runs/New Myoviridae Genomes/Strict/8_ratio.fasta
+Filter Runs/New Myoviridae Genomes/Strict/9_edmotifs.fasta
+Filter Runs/New Myoviridae Genomes/Strict/10_esi.fasta
+Filter Runs/New Myoviridae Genomes/Strict/11_esidist.fasta
+Filter Runs/New Myoviridae Genomes/Strict/12_esiglypro.fasta
+Filter Runs/New Myoviridae Genomes/Strict/13_esiaspglu.fasta
+Filter Runs/New Myoviridae Genomes/Strict/14_esiacidic.fasta
+Filter Runs/New Myoviridae Genomes/Strict/15-acidfree.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/3_sizefilter.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/4_pifilter.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/5_hydrofilter.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/6_acidfilter.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/7_glyprofilter.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/8_ratio.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/9_edmotifs.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/10_esi.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/11_esidist.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/12_esiglypro.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/13_esiaspglu.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/14_esiacidic.fasta
+Filter Runs/New Myoviridae Genomes/Strict + Lenient ESI/lenient_esi.fasta
+Filter Runs/p56 Filters/v1-Old/1_podoviridae_proteins.fasta
+Filter Runs/p56 Filters/v1-Old/2_podoviridae_trimmed.fasta
+Filter Runs/p56 Filters/v1-Old/3_podoviridae_sizefilter.fasta
+Filter Runs/p56 Filters/v1-Old/4_podoviridae_pifilter.fasta
+Filter Runs/p56 Filters/v1-Old/5_p56_motif.fasta
+Filter Runs/p56 Filters/v2-EX-FX-Distance/3_exmotif.fasta
+Filter Runs/p56 Filters/v2-EX-FX-Distance/4_fxmotif.fastsa
+Filter Runs/p56 Filters/v2-EX-FX-Distance/5_motifdistance.fasta
+Filter Runs/p56 Filters/v3-Myoviridae Runs/3_exmotif.fasta
+Filter Runs/p56 Filters/v3-Myoviridae Runs/4_fxmotif.fasta
+Filter Runs/p56 Filters/v3-Myoviridae Runs/5_motifdistance.fasta
+Filter Runs/p56 Filters/v3-Myoviridae Runs/6_hydrofilter.fasta
+Filter Runs/p56 Filters/v3-Myoviridae Runs/myoviridae_p56hits.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/25-30 GC/3_exmotif.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/25-30 GC/4_fxmotif.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/25-30 GC/5_motifdistance.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/25-30 GC/6_hydrofilter.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/25-30 GC/7_acidicfilter.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/30-35 GC/3_exmotif.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/30-35 GC/4_fxmotif.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/30-35 GC/5_motifdistance.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/30-35 GC/6_hydrofilter.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/30-35 GC/7_acidicfilter.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/35-40 GC/3_exmotif.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/35-40 GC/4_fxmotif.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/35-40 GC/5_motifdistance.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/35-40 GC/6_hydrofilter.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/35-40 GC/7_acidicfilter.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/40-45 GC/3_exmotif.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/40-45 GC/4_fxmotif.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/40-45 GC/5_motifdistance.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/40-45 GC/6_hydrofilter.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/40-45 GC/7_acidicfilter.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/45+ GC/3_exmotif.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/45+ GC/4_fxmotif.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/45+ GC/5_motifdistance.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/45+ GC/6_hydrofilter.fasta
+Filter Runs/p56 Filters/v4-Myoviridae-GC-Binned/45+ GC/7_acidicfilter.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/homologs.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/p56_strict_hits_acid-hydro_filtered.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/strict_p56_motif_hits.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/25-30 GC/3_exmotif.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/25-30 GC/25-30hits.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/30-35 GC/3_exmotif.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/30-35 GC/30-35hits.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/35-40 GC/3_exmotif.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/35-40 GC/35-40hits.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/40-45 GC/3_exmotif.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/40-45 GC/40-45hits.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/45+ GC/3_exmotif.fasta
+Filter Runs/p56 Filters/v5-Myoviridae-GC-Binned-Strict-Filters/45+ GC/45+hits.fasta
+Filter Runs/p56 Filters/v6-Salasmaviridae-Updated/3_exmotif.fasta
+Filter Runs/p56 Filters/v6-Salasmaviridae-Updated/4_fxmotif.fasta
+Filter Runs/PBS Filters/v1 Strict/PBS1_acidfilter.fasta
+Filter Runs/PBS Filters/v1 Strict/PBS1_esi.fasta
+Filter Runs/PBS Filters/v1 Strict/PBS1_esidist.fasta
+Filter Runs/PBS Filters/v1 Strict/PBS1_glyprofilter.fasta
+Filter Runs/PBS Filters/v1 Strict/PBS1_hydrofilter.fasta
+Filter Runs/PBS Filters/v1 Strict/PBS1_pifilter.fasta
+Filter Runs/PBS Filters/v1 Strict/PBS1_proteins.fasta
+Filter Runs/PBS Filters/v1 Strict/PBS1_ratio.fasta
+Filter Runs/PBS Filters/v1 Strict/PBS1_sizefilter.fasta
+Filter Runs/PBS Filters/v1 Strict/PBS1_trimmed.fasta
+Filter Runs/PBS Filters/v1 Strict/PBS1-acidfree.fasta
+Filter Runs/PBS Filters/v2 Lenient/PBS1_acidfilter.fasta
+Filter Runs/PBS Filters/v2 Lenient/PBS1_esi.fasta
+Filter Runs/PBS Filters/v2 Lenient/PBS1_esidist.fasta
+Filter Runs/PBS Filters/v2 Lenient/PBS1_glyprofilter.fasta
+Filter Runs/PBS Filters/v2 Lenient/PBS1_hydrofilter.fasta
+Filter Runs/PBS Filters/v2 Lenient/PBS1_pifilter.fasta
+Filter Runs/PBS Filters/v2 Lenient/PBS1_proteins.fasta
+Filter Runs/PBS Filters/v2 Lenient/PBS1_ratio.fasta
+Filter Runs/PBS Filters/v2 Lenient/PBS1_sizefilter.fasta
+Filter Runs/PBS Filters/v2 Lenient/PBS1_trimmed.fasta
+Filter Runs/PBS Filters/v2 Lenient/PBS1-acidfree.fasta
+Filter Runs/PBS Filters/v3 Mixed/3_sizefilter.fasta
+Filter Runs/PBS Filters/v3 Mixed/4_pifilter.fasta
+Filter Runs/PBS Filters/v3 Mixed/5_hydrofilter.fasta
+Filter Runs/PBS Filters/v3 Mixed/6_acidfilter.fasta
+Filter Runs/PBS Filters/v3 Mixed/7_glyprofilter.fasta
+Filter Runs/PBS Filters/v3 Mixed/8_ratio.fasta
+Filter Runs/PBS Filters/v3 Mixed/9_esi.fasta
+Filter Runs/PBS Filters/v3 Mixed/10_esidist.fasta
+Filter Runs/PBS Filters/v3 Mixed/11_esiglypro.fasta
+Filter Runs/PBS Filters/v3 Mixed/12_esiaspglu.fasta
+Filter Runs/PBS Filters/v3 Mixed/13_esiacidic.fasta
+Filter Runs/PBS Filters/v3 Mixed/14-acidfree.fasta
+Filter Runs/PBS Filters/v4 Mixed/3_sizefilter.fasta
+Filter Runs/PBS Filters/v4 Mixed/4_pifilter.fasta
+Filter Runs/PBS Filters/v4 Mixed/5_hydrofilter.fasta
+Filter Runs/PBS Filters/v4 Mixed/6_acidfilter.fasta
+Filter Runs/PBS Filters/v4 Mixed/7_glyprofilter.fasta
+Filter Runs/PBS Filters/v4 Mixed/8_ratio.fasta
+Filter Runs/PBS Filters/v4 Mixed/9_esi.fasta
+Filter Runs/PBS Filters/v4 Mixed/10_esidist.fasta
+Filter Runs/PBS Filters/v4 Mixed/11_esiglypro.fasta
+Filter Runs/PBS Filters/v4 Mixed/12_esiaspglu.fasta
+Filter Runs/PBS Filters/v4 Mixed/13_esiacidic.fasta
+Filter Runs/PBS Filters/v4 Mixed/14-acidfree.fasta
+Filter Runs/PBS Filters/v5 ED Tests/3_sizefilter.fasta
+Filter Runs/PBS Filters/v5 ED Tests/4_pifilter.fasta
+Filter Runs/PBS Filters/v5 ED Tests/5_hydrofilter.fasta
+Filter Runs/PBS Filters/v5 ED Tests/6_acidfilter.fasta
+Filter Runs/PBS Filters/v5 ED Tests/7_glyprofilter.fasta
+Filter Runs/PBS Filters/v5 ED Tests/8_ratio.fasta
+Filter Runs/PBS Filters/v5 ED Tests/9_edmotifs.fasta
+Filter Runs/PBS Filters/v5 ED Tests/10_esi.fasta
+Filter Runs/PBS Filters/v5 ED Tests/11_esidist.fasta
+Filter Runs/PBS Filters/v5 ED Tests/12_esiglypro.fasta
+Filter Runs/PBS Filters/v5 ED Tests/13_esiaspglu.fasta
+Filter Runs/PBS Filters/v5 ED Tests/14_esiacidic.fasta
+Filter Runs/PBS Filters/v5 ED Tests/15-acidfree.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/3_sizefilter.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/4_pifilter.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/5_hydrofilter.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/6_acidfilter.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/7_glyprofilter.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/8_ratio.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/9_edmotifs.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/10_esi.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/11_esidist.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/12_esiglypro.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/13_esiaspglu.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/14_esiacidic.fasta
+Filter Runs/PBS Filters/v6 Acidfree Tests/15-acidfree.fasta
+Filter Runs/PBS Filters/v7 No Size Filters/4_pifilter.fasta
+Filter Runs/PBS Filters/v7 No Size Filters/5_hydrofilter.fasta
+Filter Runs/PBS Filters/v7 No Size Filters/6_acidfilter.fasta
+Filter Runs/PBS Filters/v7 No Size Filters/7_glyprofilter.fasta
+Filter Runs/PBS Filters/v7 No Size Filters/8_ratio.fasta
+Filter Runs/PBS Filters/v7 No Size Filters/10_esi.fasta
+Filter Runs/PBS Filters/v7 No Size Filters/11_esidist.fasta
+Filter Runs/PBS Filters/v7 No Size Filters/12_esiglypro.fasta
+Filter Runs/PBS Filters/v7 No Size Filters/13_esiaspglu.fasta
+Filter Runs/PBS Filters/v7 No Size Filters/14_esiacidic.fasta
+Filter Runs/PBS Filters/v7 No Size Filters/15-acidfree.fasta
+Filter Runs/PBS Filters/v8 No Size No pI Filter/5_hydrofilter.fasta
+Filter Runs/PBS Filters/v8 No Size No pI Filter/6_acidfilter.fasta
+Filter Runs/PBS Filters/v8 No Size No pI Filter/7_glyprofilter.fasta
+Filter Runs/PBS Filters/v8 No Size No pI Filter/8_ratio.fasta
+Filter Runs/PBS Filters/v8 No Size No pI Filter/10_esi.fasta
+Filter Runs/PBS Filters/v8 No Size No pI Filter/11_esidist.fasta
+Filter Runs/PBS Filters/v8 No Size No pI Filter/12_esiglypro.fasta
+Filter Runs/PBS Filters/v8 No Size No pI Filter/13_esiaspglu.fasta
+Filter Runs/PBS Filters/v8 No Size No pI Filter/14_esiacidic.fasta
+Filter Runs/PBS Filters/v8 No Size No pI Filter/15-acidfree.fasta
+Filter Runs/PBS Filters/v9 No Size No pI Lenient Hydrophobicity Lenient Acidity/5_hydrofilter.fasta
+Filter Runs/PBS Filters/v9 No Size No pI Lenient Hydrophobicity Lenient Acidity/6_acidfilter.fasta
+Filter Runs/PBS Filters/v9 No Size No pI Lenient Hydrophobicity Lenient Acidity/7_glyprofilter.fasta
+Filter Runs/PBS Filters/v9 No Size No pI Lenient Hydrophobicity Lenient Acidity/8_ratio.fasta
+Filter Runs/PBS Filters/v9 No Size No pI Lenient Hydrophobicity Lenient Acidity/10_esi.fasta
+Filter Runs/PBS Filters/v9 No Size No pI Lenient Hydrophobicity Lenient Acidity/11_esidist.fasta
+Filter Runs/PBS Filters/v9 No Size No pI Lenient Hydrophobicity Lenient Acidity/12_esiglypro.fasta
+Filter Runs/PBS Filters/v9 No Size No pI Lenient Hydrophobicity Lenient Acidity/13_esiaspglu.fasta
+Filter Runs/PBS Filters/v9 No Size No pI Lenient Hydrophobicity Lenient Acidity/14_esiacidic.fasta
+Filter Runs/PBS Filters/v9 No Size No pI Lenient Hydrophobicity Lenient Acidity/15-acidfree.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/3_sizefilter.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/4_pifilter.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/5_hydrofilter.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/6_acidfilter.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/7_glyprofilter.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/8_ratio.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/9_esi.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/10_esidist.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/11_esiglypro.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/12_esiaspglu.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/13_esiacidic.fasta
+Filter Runs/Phi Filters/v1 Mixed Lenient/14-acidfree.fasta
+Filter Runs/Phi Filters/v2 Lenient/3_sizefilter.fasta
+Filter Runs/Phi Filters/v2 Lenient/4_pifilter.fasta
+Filter Runs/Phi Filters/v2 Lenient/5_hydrofilter.fasta
+Filter Runs/Phi Filters/v2 Lenient/6_acidfilter.fasta
+Filter Runs/Phi Filters/v2 Lenient/7_glyprofilter.fasta
+Filter Runs/Phi Filters/v2 Lenient/8_ratio.fasta
+Filter Runs/Phi Filters/v2 Lenient/9_esi.fasta
+Filter Runs/Phi Filters/v2 Lenient/10_esidist.fasta
+Filter Runs/Phi Filters/v2 Lenient/11-acidfree.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/3_sizefilter.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/4_pifilter.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/5_hydrofilter.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/6_acidfilter.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/7_glyprofilter.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/8_ratio.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/10_esi.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/11_esidist.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/12_esiglypro.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/13_esiaspglu.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/14_esiacidic.fasta
+Filter Runs/Phi Filters/v3 Final Report Params/15-acidfree.fasta
+Filter Runs/Phi Filters/v4 No Size Filters/4_pifilter.fasta
+Filter Runs/Phi Filters/v4 No Size Filters/5_hydrofilter.fasta
+Filter Runs/Phi Filters/v4 No Size Filters/6_acidfilter.fasta
+Filter Runs/Phi Filters/v4 No Size Filters/7_glyprofilter.fasta
+Filter Runs/Phi Filters/v4 No Size Filters/8_ratio.fasta
+Filter Runs/Phi Filters/v4 No Size Filters/10_esi.fasta
+Filter Runs/Phi Filters/v4 No Size Filters/11_esidist.fasta
+Filter Runs/Phi Filters/v4 No Size Filters/12_esiglypro.fasta
+Filter Runs/Phi Filters/v4 No Size Filters/13_esiaspglu.fasta
+Filter Runs/Phi Filters/v4 No Size Filters/14_esiacidic.fasta
+Filter Runs/Phi Filters/v4 No Size Filters/PhiR1-37 No Size Filters Hits.fasta
+Filter Runs/Phi Filters/v5 No Size No pI Filter/5_hydrofilter.fasta
+Filter Runs/Phi Filters/v5 No Size No pI Filter/6_acidfilter.fasta
+Filter Runs/Phi Filters/v5 No Size No pI Filter/7_glyprofilter.fasta
+Filter Runs/Phi Filters/v5 No Size No pI Filter/8_ratio.fasta
+Filter Runs/Phi Filters/v5 No Size No pI Filter/10_esi.fasta
+Filter Runs/Phi Filters/v5 No Size No pI Filter/11_esidist.fasta
+Filter Runs/Phi Filters/v5 No Size No pI Filter/12_esiglypro.fasta
+Filter Runs/Phi Filters/v5 No Size No pI Filter/13_esiaspglu.fasta
+Filter Runs/Phi Filters/v5 No Size No pI Filter/14_esiacidic.fasta
+Filter Runs/Phi Filters/v5 No Size No pI Filter/15-acidfree.fasta
+Filter Runs/Phi Filters/v6 No Size No pI Lenient Hydrophobicity Lenient Acidity Filters/5_hydrofilter.fasta
+Filter Runs/Phi Filters/v6 No Size No pI Lenient Hydrophobicity Lenient Acidity Filters/6_acidfilter.fasta
+Filter Runs/Phi Filters/v6 No Size No pI Lenient Hydrophobicity Lenient Acidity Filters/7_glyprofilter.fasta
+Filter Runs/Phi Filters/v6 No Size No pI Lenient Hydrophobicity Lenient Acidity Filters/8_ratio.fasta
+Filter Runs/Phi Filters/v6 No Size No pI Lenient Hydrophobicity Lenient Acidity Filters/10_esi.fasta
+Filter Runs/Phi Filters/v6 No Size No pI Lenient Hydrophobicity Lenient Acidity Filters/11_esidist.fasta
+Filter Runs/Phi Filters/v6 No Size No pI Lenient Hydrophobicity Lenient Acidity Filters/12_esiglypro.fasta
+Filter Runs/Phi Filters/v6 No Size No pI Lenient Hydrophobicity Lenient Acidity Filters/13_esiaspglu.fasta
+Filter Runs/Phi Filters/v6 No Size No pI Lenient Hydrophobicity Lenient Acidity Filters/14_esiacidic.fasta
+Filter Runs/Phi Filters/v6 No Size No pI Lenient Hydrophobicity Lenient Acidity Filters/15-acidfree.fasta
+Filter Runs/SaUgi Filters/v1/3_sizefilter.fasta
+Filter Runs/SaUgi Filters/v1/4_pifilter.fasta
+Filter Runs/SaUgi Filters/v1/5_hydrofilter.fasta
+Filter Runs/SaUgi Filters/v1/6_acidfilter.fasta
+Filter Runs/SaUgi Filters/v1/7_glyprofilter.fasta
+Filter Runs/SaUgi Filters/v1/8_ratio.fasta
+Filter Runs/SaUgi Filters/v1/9_edmotifs.fasta
+Filter Runs/SaUgi Filters/v1/10_esi.fasta
+Filter Runs/SaUgi Filters/v1/11_esidist.fasta
+Filter Runs/SaUgi Filters/v1/12_esiglypro.fasta
+Filter Runs/SaUgi Filters/v1/13_esiaspglu.fasta
+Filter Runs/SaUgi Filters/v1/14_esiacidic.fasta
+Filter Runs/SaUgi Filters/v1/15-acidfree.fasta
+Filter Runs/T5 Filters/Bulk Genome Strict/3_hydro.fasta
+Filter Runs/T5 Filters/Bulk Genome Strict/7_esi.fasta
+Filter Runs/T5 Filters/Bulk Genome Strict/8_esidistance.fasta
+Filter Runs/T5 Filters/Bulk Genome Strict/9_esiacidic.fasta
+Filter Runs/T5 Filters/Bulk Genome Strict/10_esiaspglu.fasta
+Filter Runs/T5 Filters/Bulk Genome Strict/11_esiglypro.fasta
+Filter Runs/T5 Filters/Bulk Genome Strict/12_edmotifs.fasta
+Filter Runs/T5 Filters/Bulk Genome Strict/13_acidfree.fasta
+Filter Runs/vB Filters/v1 Strict/vB_acidfilter.fasta
+Filter Runs/vB Filters/v1 Strict/vB_esi.fasta
+Filter Runs/vB Filters/v1 Strict/vB_esidist.fasta
+Filter Runs/vB Filters/v1 Strict/vB_glyprofilter.fasta
+Filter Runs/vB Filters/v1 Strict/vB_hydrofilter.fasta
+Filter Runs/vB Filters/v1 Strict/vB_pifilter.fasta
+Filter Runs/vB Filters/v1 Strict/vB_proteins.fasta
+Filter Runs/vB Filters/v1 Strict/vB_ratio.fasta
+Filter Runs/vB Filters/v1 Strict/vB_trimmed.fasta
+Filter Runs/vB Filters/v1 Strict/vB-acidfree.fasta
+Filter Runs/vB Filters/v2 Lenient/vB_acidfilter.fasta
+Filter Runs/vB Filters/v2 Lenient/vB_esi.fasta
+Filter Runs/vB Filters/v2 Lenient/vB_esidist.fasta
+Filter Runs/vB Filters/v2 Lenient/vB_glyprofilter.fasta
+Filter Runs/vB Filters/v2 Lenient/vB_hydrofilter.fasta
+Filter Runs/vB Filters/v2 Lenient/vB_pifilter.fasta
+Filter Runs/vB Filters/v2 Lenient/vB_proteins.fasta
+Filter Runs/vB Filters/v2 Lenient/vB_ratio.fasta
+Filter Runs/vB Filters/v2 Lenient/vB_sizefilter.fasta
+Filter Runs/vB Filters/v2 Lenient/vB_trimmed.fasta
+Filter Runs/vB Filters/v2 Lenient/vB-acidfree.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_acidfilter (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_acidfilter.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_esi (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_esi.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_esiacidic (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_esiacidic.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_esiaspglu (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_esiaspglu.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_esidist (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_esidist.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_esiglypro (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_esiglypro.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_glyprofilter (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_glyprofilter.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_hydrofilter (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_hydrofilter.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_pifilter (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_pifilter.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_proteins (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_proteins.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_ratio (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_ratio.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_sizefilter (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_sizefilter.fasta
+Filter Runs/vB Filters/v3 Mixed/vB_trimmed (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB_trimmed.fasta
+Filter Runs/vB Filters/v3 Mixed/vB-acidfree (1).fasta
+Filter Runs/vB Filters/v3 Mixed/vB-acidfree.fasta
+Filter Runs/vB Filters/v4 Mixed/3_sizefilter.fasta
+Filter Runs/vB Filters/v4 Mixed/4_pifilter.fasta
+Filter Runs/vB Filters/v4 Mixed/5_hydrofilter.fasta
+Filter Runs/vB Filters/v4 Mixed/6_acidfilter.fasta
+Filter Runs/vB Filters/v4 Mixed/7_glyprofilter.fasta
+Filter Runs/vB Filters/v4 Mixed/8_ratio.fasta
+Filter Runs/vB Filters/v4 Mixed/9_esi.fasta
+Filter Runs/vB Filters/v4 Mixed/10_esidist.fasta
+Filter Runs/vB Filters/v4 Mixed/11_esiglypro.fasta
+Filter Runs/vB Filters/v4 Mixed/12_esiaspglu.fasta
+Filter Runs/vB Filters/v4 Mixed/13_esiacidic.fasta
+Filter Runs/vB Filters/v4 Mixed/14-acidfree.fasta
+Filter Runs/vB Filters/v5 No Size Filters/4_pifilter.fasta
+Filter Runs/vB Filters/v5 No Size Filters/5_hydrofilter.fasta
+Filter Runs/vB Filters/v5 No Size Filters/6_acidfilter.fasta
+Filter Runs/vB Filters/v5 No Size Filters/7_glyprofilter.fasta
+Filter Runs/vB Filters/v5 No Size Filters/8_ratio.fasta
+Filter Runs/vB Filters/v5 No Size Filters/10_esi.fasta
+Filter Runs/vB Filters/v5 No Size Filters/11_esidist.fasta
+Filter Runs/vB Filters/v5 No Size Filters/12_esiglypro.fasta
+Filter Runs/vB Filters/v5 No Size Filters/13_esiaspglu.fasta
+Filter Runs/vB Filters/v5 No Size Filters/14_esiacidic.fasta
+Filter Runs/vB Filters/v5 No Size Filters/15-acidfree.fasta
+Filter Runs/vB Filters/v6 No Size No pI Filter/5_hydrofilter.fasta
+Filter Runs/vB Filters/v6 No Size No pI Filter/6_acidfilter.fasta
+Filter Runs/vB Filters/v6 No Size No pI Filter/7_glyprofilter.fasta
+Filter Runs/vB Filters/v6 No Size No pI Filter/8_ratio.fasta
+Filter Runs/vB Filters/v6 No Size No pI Filter/10_esi.fasta
+Filter Runs/vB Filters/v6 No Size No pI Filter/11_esidist.fasta
+Filter Runs/vB Filters/v6 No Size No pI Filter/12_esiglypro.fasta
+Filter Runs/vB Filters/v6 No Size No pI Filter/13_esiaspglu.fasta
+Filter Runs/vB Filters/v6 No Size No pI Filter/14_esiacidic.fasta
+Filter Runs/vB Filters/v6 No Size No pI Filter/15-acidfree.fasta
+Filter Runs/vB Filters/v7 No Size No pI Lenient Hydrophobicity Lenient Acidity/5_hydrofilter.fasta
+Filter Runs/vB Filters/v7 No Size No pI Lenient Hydrophobicity Lenient Acidity/6_acidfilter.fasta
+Filter Runs/vB Filters/v7 No Size No pI Lenient Hydrophobicity Lenient Acidity/7_glyprofilter.fasta
+Filter Runs/vB Filters/v7 No Size No pI Lenient Hydrophobicity Lenient Acidity/8_ratio.fasta
+Filter Runs/vB Filters/v7 No Size No pI Lenient Hydrophobicity Lenient Acidity/10_esi.fasta
+Filter Runs/vB Filters/v7 No Size No pI Lenient Hydrophobicity Lenient Acidity/11_esidist.fasta
+Filter Runs/vB Filters/v7 No Size No pI Lenient Hydrophobicity Lenient Acidity/12_esiglypro.fasta
+Filter Runs/vB Filters/v7 No Size No pI Lenient Hydrophobicity Lenient Acidity/13_esiaspglu.fasta
+Filter Runs/vB Filters/v7 No Size No pI Lenient Hydrophobicity Lenient Acidity/14_esiacidic.fasta
+Filter Runs/vB Filters/v7 No Size No pI Lenient Hydrophobicity Lenient Acidity/15-acidfree.fasta
+Input Files/lpjp1_genome.fasta
+Input Files/new_myoviridae_genomes.fasta
+Input Files/p56.fasta
+Input Files/phi-137_genome.fasta
+Input Files/phir1-37_hits.fasta
+Input Files/roseophages.fasta
+Input Files/s6_genome.fasta
+Input Files/saugis.fasta
+Input Files/T5_genome.fasta
+Input Files/taxonomy_result.txt
+Input Files/Myoviridae Genomes/myo_25.fasta
+Input Files/Myoviridae Genomes/myo_30.fasta
+Input Files/Myoviridae Genomes/myo_35.fasta
+Input Files/Myoviridae Genomes/myo_40.fasta
+Input Files/Myoviridae Genomes/myo_45+.fasta
+Input Files/Myoviridae Genomes/myo_sub25.fasta
+Input Files/Myoviridae Genomes/myo_v2.fasta
+Input Files/p56 Phages/bstp4_genome.fasta
+Input Files/p56 Phages/bstp6_genome.fasta
+Input Files/p56 Phages/ga1_genome.fasta
+Input Files/p56 Phages/phi29_genome.fasta
+Input Files/p56 Phages/pza_genome.fasta
+Input Files/Ugi Phages/ar9_genome.fasta
+Input Files/Ugi Phages/internexus_genome.fasta
+Input Files/Ugi Phages/PBS1_genome.fasta
+Input Files/Ugi Phages/ugi_phages.fasta
+Input Files/Ugi Phages/vB_genome.fasta
