@@ -6,9 +6,7 @@
 5_glypro.fasta
 6_ratio.fasta
 7_esifilters.fasta
-All_Ugis+SaUgis.fasta
 p56phages.fasta
-s6_genome.fasta
 ugi_phages.fasta
 __pycache__/esi_filters.cpython-39.pyc
 __pycache__/general_filters.cpython-39.pyc
