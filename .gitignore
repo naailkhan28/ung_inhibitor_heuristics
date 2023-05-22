@@ -8,6 +8,7 @@
 7_esifilters.fasta
 p56phages.fasta
 ugi_phages.fasta
+split_fasta.py
 __pycache__/esi_filters.cpython-39.pyc
 __pycache__/general_filters.cpython-39.pyc
 __pycache__/genome_inputs.cpython-39.pyc
