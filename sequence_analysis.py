@@ -11,6 +11,16 @@ acidic = ["E", "D"]
 hydrophobic = ["I", "V", "L", "F", "M"]
 
 def get_pi_values(proteinlist):
+    """
+    Calculate the isoelectric point (pI) values for a list of proteins.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated pI values for the proteins.
+
+    """
 
     pi_values = []
 
@@ -20,6 +30,16 @@ def get_pi_values(proteinlist):
     return pi_values
 
 def get_lengths(proteinlist):
+    """
+    Retrieve the lengths of proteins in a list.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of lengths (number of amino acids) for the proteins.
+
+    """
 
     lengths = []
 
@@ -29,6 +49,16 @@ def get_lengths(proteinlist):
     return lengths
 
 def get_mws(proteinlist):
+    """
+    Calculate the molecular weights (MWs) of proteins in a list.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated MWs (in kilodaltons) for the proteins.
+
+    """
 
     weights = []
 
@@ -38,6 +68,18 @@ def get_mws(proteinlist):
     return weights
 
 def get_hydrophobicities(proteinlist):
+    """
+    Calculate the hydrophobicity scores for proteins in a list.
+
+    The hydrophobicity score is calculated as the sum of percentages of hydrophobic amino acids (defined in the variable 'hydrophobic') in the protein sequence.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated hydrophobicity scores for the proteins.
+
+    """
 
     hydrophobicities = []
 
@@ -50,6 +92,19 @@ def get_hydrophobicities(proteinlist):
 
 def get_lenient_hydrophobicities(proteinlist):
 
+    """
+    Calculate the lenient hydrophobicity scores for proteins in a list.
+
+    The lenient hydrophobicity score is calculated as the sum of percentages of lenient hydrophobic amino acids (defined in the variable 'lenienthydrophobic') in the protein sequence.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated lenient hydrophobicity scores for the proteins.
+
+    """
+
     hydrophobicities = []
 
     for protein in proteinlist:
@@ -60,6 +115,18 @@ def get_lenient_hydrophobicities(proteinlist):
     return hydrophobicities
 
 def get_acidities(proteinlist):
+    """
+    Calculate the acidity scores for proteins in a list.
+
+    The acidity score is calculated as the sum of percentages of acidic amino acids (defined in the variable 'acidic') in the protein sequence.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated acidity scores for the proteins.
+
+    """
 
     acidities = []
 
@@ -71,6 +138,18 @@ def get_acidities(proteinlist):
     return acidities
 
 def get_lenient_acidities(proteinlist):
+    """
+    Calculate the lenient acidity scores for proteins in a list.
+
+    The lenient acidity score is calculated as the sum of percentages of lenient acidic amino acids (defined in the variable 'lenientacidic') in the protein sequence.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated lenient acidity scores for the proteins.
+
+    """
 
     acidities = []
 
@@ -82,6 +161,16 @@ def get_lenient_acidities(proteinlist):
     return acidities
 
 def get_glypros(proteinlist):
+    """
+    Calculate the counts of glycine and proline residues for proteins in a list.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of counts of glycine and proline residues for the proteins.
+
+    """
 
     glypros = []
 
@@ -91,6 +180,18 @@ def get_glypros(proteinlist):
     return glypros
 
 def get_ratios(proteinlist):
+    """
+    Calculate the acidic to basic amino acid ratios for proteins in a list.
+
+    The ratio is calculated as the count of acidic amino acids (E and D) divided by the count of basic amino acids (K and R).
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated acidic to basic amino acid ratios for the proteins.
+
+    """
 
     ratios = []
 
@@ -107,6 +208,19 @@ def get_ratios(proteinlist):
 
 def get_lenient_ratios(proteinlist):
 
+    """
+    Calculate the lenient acidic to basic amino acid ratios for proteins in a list.
+
+    The ratio is calculated as the count of lenient acidic amino acids (E, D, and C) divided by the count of lenient basic amino acids (K, R, and H).
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated lenient acidic to basic amino acid ratios for the proteins.
+
+    """
+
     ratios = []
 
     for protein in proteinlist:
@@ -121,6 +235,19 @@ def get_lenient_ratios(proteinlist):
     return ratios
 
 def get_esi_glypros(proteinlist):
+
+    """
+    Calculate the counts of glycine and proline residues within the ESI motif for proteins in a list.
+
+    The ESI motif is defined as the presence of specific residues in a specific pattern.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of counts of glycine and proline residues within the ESI motif for the proteins.
+
+    """
 
     esi_glypros = []
 
@@ -147,6 +274,19 @@ def get_esi_glypros(proteinlist):
 
 def get_esi_distances(proteinlist):
 
+    """
+    Calculate the distances of the ESI motif from the C-terminus for proteins in a list.
+
+    The ESI motif is defined as the presence of specific residues in a specific pattern.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated distances of the ESI motif from the C-terminus for the proteins.
+
+    """
+
     esi_distances = []
 
     for protein in proteinlist:
@@ -166,6 +306,18 @@ def get_esi_distances(proteinlist):
     return esi_distances
 
 def get_esi_aspglus(proteinlist):
+    """
+    Calculate the counts of acidic residues within a specific region around the ESI motif for proteins in a list.
+
+    The ESI motif is defined as the presence of specific residues in a specific pattern.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of counts of acidic residues within the region around the ESI motif for the proteins.
+
+    """
 
     esi_aspglus = []
 
@@ -195,6 +347,18 @@ def get_esi_aspglus(proteinlist):
         return esi_aspglus
 
 def get_esi_acidic(proteinlist):
+    """
+    Determine if the ESI motif in proteins from a list contains acidic residues.
+
+    The ESI motif is defined as the presence of specific residues in a specific pattern.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of binary values indicating the presence (1) or absence (0) of acidic residues within the ESI motif for the proteins.
+
+    """
 
     esi_acidic = []
 

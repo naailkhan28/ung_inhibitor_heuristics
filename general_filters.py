@@ -5,6 +5,21 @@ from Bio.SeqUtils.ProtParam import ProteinAnalysis
 
 #filter below max length and molecular weight
 def lengthfilter(proteinlist, maxlength, maxmW, outputfile):
+    """
+    Filters a list of SeqRecord objects based on the length and molecular weight of their protein sequence.
+
+    Args:
+        proteinlist (list): A list of SeqRecord objects.
+        maxlength (int): The maximum length of the protein sequence to include.
+        maxmW (int): The maximum molecular weight in kDA of the protein sequence to include.
+        outputfile (str): The path to the output FASTA file.
+
+    Returns:
+        list: A list of filtered SeqRecord objects.
+
+    Raises:
+        IOError: If the output file cannot be opened or written.
+    """
 
     correct_size = []
 
@@ -18,6 +33,21 @@ def lengthfilter(proteinlist, maxlength, maxmW, outputfile):
 
 #filter for correct pI range
 def pifilter(proteinlist, minpi, maxpi, outputfile):
+    """
+    Filters a list of SeqRecord objects based on the isoelectric point of their protein sequence.
+
+    Args:
+        proteinlist (list): A list of SeqRecord objects.
+        minpi (float): The minimum isoelectric point of the protein sequence to include.
+        maxpi (float): The maximum isoelectric point of the protein sequence to include.
+        outputfile (str): The path to the output FASTA file.
+
+    Returns:
+        list: A list of filtered SeqRecord objects.
+
+    Raises:
+        IOError: If the output file cannot be opened or written.
+    """
 
     correct_pi = []
 
@@ -31,6 +61,22 @@ def pifilter(proteinlist, minpi, maxpi, outputfile):
 
 #filter for hydrophobic residue percentage range
 def hydrophobicfilter(proteinlist, minvalue, maxvalue, outputfile):
+    """
+    Filters a list of SeqRecord objects based on the hydrophobicity of their protein sequence.
+    Hydrophobicity is defined as the percentage of hydrophobic residues [IVLFMAWT]
+
+    Args:
+        proteinlist (list): A list of SeqRecord objects.
+        minvalue (float): The minimum hydrophobicity of the protein sequence to include.
+        maxvalue (float): The maximum hydrophobicity of the protein sequence to include.
+        outputfile (str): The path to the output FASTA file.
+
+    Returns:
+        list: A list of filtered SeqRecord objects.
+
+    Raises:
+        IOError: If the output file cannot be opened or written.
+    """
 
     correct_hydrophobicity = []
     residues = ["I", "V", "L", "F", "M", "A", "W", "T"]
@@ -49,6 +95,23 @@ def hydrophobicfilter(proteinlist, minvalue, maxvalue, outputfile):
 
 #filter for acidic residue percentage range
 def acidicfilter(proteinlist, minvalue, maxvalue, outputfile):
+    """
+    Filters a list of SeqRecord objects based on the acidity of their protein sequence.
+    Hydrophobicity is defined as the percentage of acidic residues [EDC]
+
+    Args:
+        proteinlist (list): A list of SeqRecord objects.
+        minvalue (float): The minimum acidity of the protein sequence to include.
+        maxvalue (float): The maximum acidity of the protein sequence to include.
+        outputfile (str): The path to the output FASTA file.
+
+    Returns:
+        list: A list of filtered SeqRecord objects.
+
+    Raises:
+        IOError: If the output file cannot be opened or written.
+    """
+
 
     correct_acidic = []
     residues = ["E", "D", "C"]

@@ -9,6 +9,20 @@ residue3 = ["L", "V", "I", "F", "M", "T"]
 lenienthydrophobic = ["I", "V", "L", "F", "M", "W", "T", "A"]
 
 def esi_strand_mw(proteinlist, minmw, maxmw, outputfile):
+    """
+    Filter proteins based on the presence of specific residues in a specific pattern and the molecular weight range of the surrounding motif.
+    Write the filtered proteins to a file.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        minmw (float): Minimum molecular weight of the motif surrounding the residues.
+        maxmw (float): Maximum molecular weight of the motif surrounding the residues.
+        outputfile (str): Output file name for writing the filtered proteins.
+
+    Returns:
+        list: List of SeqRecord objects representing the filtered proteins.
+
+    """
 
     esi_mws = []
 
@@ -32,7 +46,20 @@ def esi_strand_mw(proteinlist, minmw, maxmw, outputfile):
     return esi_mws
 
 def esi_strand_pi(proteinlist, minpi, maxpi, outputfile):
+    """
+    Filter proteins based on the presence of specific residues in a specific pattern and the isoelectric point range of the surrounding motif.
+    Write the filtered proteins to a file.
 
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        minpi (float): Minimum isoelectric point of the motif surrounding the residues.
+        maxpi (float): Maximum isoelectric point of the motif surrounding the residues.
+        outputfile (str): Output file name for writing the filtered proteins.
+
+    Returns:
+        list: List of SeqRecord objects representing the filtered proteins.
+
+    """
     esi_pis = []
 
     for protein in proteinlist:
@@ -55,6 +82,20 @@ def esi_strand_pi(proteinlist, minpi, maxpi, outputfile):
     return esi_pis
 
 def esi_strand_hydrophobicity(proteinlist, minhydro, maxhydro, outputfile):
+    """
+    Filter proteins based on the presence of specific residues in a specific pattern and the hydrophobicity range of the surrounding motif.
+    Write the filtered proteins to a file.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        minhydro (float): Minimum hydrophobicity percentage of the motif surrounding the residues.
+        maxhydro (float): Maximum hydrophobicity percentage of the motif surrounding the residues.
+        outputfile (str): Output file name for writing the filtered proteins.
+
+    Returns:
+        list: List of SeqRecord objects representing the filtered proteins.
+
+    """
 
     esi_hydros = []
 
@@ -81,7 +122,20 @@ def esi_strand_hydrophobicity(proteinlist, minhydro, maxhydro, outputfile):
     return esi_hydros
 
 def lenient_esi_strand_mw(proteinlist, minmw, maxmw, outputfile):
+    """
+    Filter proteins based on the presence of specific residues in a specific pattern, with a relaxed condition on residue positions,
+    and the molecular weight range of the surrounding motif. Write the filtered proteins to a file.
 
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        minmw (float): Minimum molecular weight of the motif surrounding the residues.
+        maxmw (float): Maximum molecular weight of the motif surrounding the residues.
+        outputfile (str): Output file name for writing the filtered proteins.
+
+    Returns:
+        list: List of SeqRecord objects representing the filtered proteins.
+
+    """
     esi_mws = []
 
     for protein in proteinlist:
@@ -103,7 +157,20 @@ def lenient_esi_strand_mw(proteinlist, minmw, maxmw, outputfile):
     return esi_mws
 
 def lenient_esi_strand_pi(proteinlist, minpi, maxpi, outputfile):
+    """
+    Filter proteins based on the presence of specific residues in a specific pattern, with a relaxed condition on residue positions,
+    and the isoelectric point range of the surrounding motif. Write the filtered proteins to a file.
 
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        minpi (float): Minimum isoelectric point of the motif surrounding the residues.
+        maxpi (float): Maximum isoelectric point of the motif surrounding the residues.
+        outputfile (str): Output file name for writing the filtered proteins.
+
+    Returns:
+        list: List of SeqRecord objects representing the filtered proteins.
+
+    """
     esi_pis = []
 
     for protein in proteinlist:
@@ -125,7 +192,20 @@ def lenient_esi_strand_pi(proteinlist, minpi, maxpi, outputfile):
     return esi_pis
 
 def lenient_esi_strand_hydrophobicity(proteinlist, minhydro, maxhydro, outputfile):
+    """
+    Filter proteins based on the presence of specific residues in a specific pattern, with a relaxed condition on residue positions,
+    and the hydrophobicity range of the surrounding motif. Write the filtered proteins to a file.
 
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        minhydro (float): Minimum hydrophobicity percentage of the motif surrounding the residues.
+        maxhydro (float): Maximum hydrophobicity percentage of the motif surrounding the residues.
+        outputfile (str): Output file name for writing the filtered proteins.
+
+    Returns:
+        list: List of SeqRecord objects representing the filtered proteins.
+
+    """
     esi_hydros = []
 
     for protein in proteinlist:

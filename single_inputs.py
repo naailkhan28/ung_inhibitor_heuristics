@@ -5,6 +5,19 @@ from sequence_processing import remove_duplicates
 
 #read in a genome, carry out six frame translation, return all ORFs + write them to a file
 def read_genome(genomefile, table, minimum_protein_length, outputfile):
+    """
+    Read in a genome, carry out six frame translation, return all open reading frames (ORFs) and write them to a file.
+
+    Args:
+        genomefile (str): File name of the genome in FASTA format.
+        table (int): Genetic code table to use for translation.
+        minimum_protein_length (int): Minimum length of proteins to be considered as valid ORFs.
+        outputfile (str): Output file name for writing the translated ORFs.
+
+    Returns:
+        list: List of SeqRecord objects representing the translated ORFs.
+
+    """
 
     record = SeqIO.read(genomefile, "fasta")
     
@@ -29,6 +42,16 @@ def read_genome(genomefile, table, minimum_protein_length, outputfile):
 
 #read in a list of proteins
 def read_proteins(proteinfile):
+    """
+    Read in a list of proteins from a file.
+
+    Args:
+        proteinfile (str): File name of the protein sequences in FASTA format.
+
+    Returns:
+        list: List of SeqRecord objects representing the proteins.
+
+    """
 
     all_proteins = []
 

@@ -6,6 +6,21 @@ from sequence_processing import dictify
 
 #lenient filter for ESI-like motifs
 def esifinder(proteinlist, outputfile):
+    """
+    Filter a list of proteins for lenient occurrences of the ESI-like motif.
+
+    The function searches for proteins that have an ESI-like motif pattern, where:
+    - The first residue is "E"
+    - The third residue can be any of ["L", "V", "I", "F", "M", "T"]
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        outputfile (str): Path to the output file where filtered proteins will be written in FASTA format.
+
+    Returns:
+        list: List of SeqRecord objects representing the proteins that have a lenient occurrence of the ESI-like motif.
+
+    """
 
     correct_motif = []
 
@@ -31,6 +46,26 @@ def esifinder(proteinlist, outputfile):
 
 #lenient filter for length between ESI-like motif and stop codon
 def esidistance(proteinlist, mindistance, maxdistance, outputfile):
+    """
+    Filter a list of proteins based on the lenient distance between the ESI-like motif and the stop codon.
+
+    The function filters proteins based on the following criteria:
+    - Presence of an ESI-like motif pattern, where:
+        - The first residue is "E"
+        - The third residue can be any of ["L", "V", "I", "F", "M", "T"]
+    - Distance between the ESI-like motif and the stop codon of the protein, where:
+        - The distance is greater than `mindistance` and less than `maxdistance`
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        mindistance (int): Minimum distance between the ESI-like motif and the stop codon.
+        maxdistance (int): Maximum distance between the ESI-like motif and the stop codon.
+        outputfile (str): Path to the output file where filtered proteins will be written in FASTA format.
+
+    Returns:
+        list: List of SeqRecord objects representing the proteins that meet the lenient distance criteria.
+
+    """
 
     correct_distance= []
     
@@ -58,6 +93,24 @@ def esidistance(proteinlist, mindistance, maxdistance, outputfile):
 
 #lenient filter for glycine and proline residues around ESI-like motif
 def esiresidues_glypro(proteinlist, outputfile):
+    """
+    Filter a list of proteins for lenient occurrences of glycine and proline residues around the ESI-like motif.
+
+    The function filters proteins based on the following criteria:
+    - Presence of an ESI-like motif pattern, where:
+        - The first residue is "E"
+        - The third residue can be any of ["L", "V", "I", "F", "M", "T"]
+    - Presence of glycine (G) and proline (P) residues within a 20 amino acid window around the ESI-like motif, where:
+        - The count of glycine and proline residues is either 2 or 3
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        outputfile (str): Path to the output file where filtered proteins will be written in FASTA format.
+
+    Returns:
+        list: List of SeqRecord objects representing the proteins that have a lenient occurrence of glycine and proline residues around the ESI-like motif.
+
+    """
 
     correct_esiresidues_glypro = []
     
@@ -93,7 +146,23 @@ def esiresidues_glypro(proteinlist, outputfile):
 
 #lenient filter for acidic residues around ESI-like motif
 def esiresidues_acidic(proteinlist, outputfile):
+    """
+    Filter a list of proteins for lenient occurrences of acidic residues around the ESI-like motif.
 
+    The function filters proteins based on the following criteria:
+    - Presence of an ESI-like motif pattern, where:
+        - The first residue is "E"
+        - The third residue can be any of ["L", "V", "I", "F", "M", "T"]
+    - Presence of acidic residues (E or D) at positions +7 or +8 from the ESI-like motif
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        outputfile (str): Path to the output file where filtered proteins will be written in FASTA format.
+
+    Returns:
+        list: List of SeqRecord objects representing the proteins that have a lenient occurrence of acidic residues around the ESI-like motif.
+
+    """
 
     correct_esiresidues_acidic = []
     
@@ -130,7 +199,24 @@ def esiresidues_acidic(proteinlist, outputfile):
 #lenient filter for aspartate and glutamate residues around ESI-like motif
 def esiresidues_aspglu(proteinlist, outputfile):
 
+    """
+    Filter a list of proteins for lenient occurrences of aspartate and glutamate residues around the ESI-like motif.
 
+    The function filters proteins based on the following criteria:
+    - Presence of an ESI-like motif pattern, where:
+        - The first residue is "E"
+        - The third residue can be any of ["L", "V", "I", "F", "M", "T"]
+    - Presence of aspartate (D) and glutamate (E) residues within a 28 amino acid window around the ESI-like motif, where:
+        - The count of aspartate and glutamate residues combined is 7 or more
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        outputfile (str): Path to the output file where filtered proteins will be written in FASTA format.
+
+    Returns:
+        list: List of SeqRecord objects representing the proteins that have a lenient occurrence of aspartate and glutamate residues around the ESI-like motif.
+
+    """
 
     correct_esiresidues_aspglu = []
     
@@ -166,6 +252,33 @@ def esiresidues_aspglu(proteinlist, outputfile):
     return(correct_esiresidues_aspglu)
 
 def allesifilters(proteinlist, mindistance, maxdistance, outputfile):
+
+    """
+    Filter a list of proteins based on multiple lenient criteria for the ESI-like motif.
+
+    The function filters proteins based on the following lenient criteria:
+    - Presence of an ESI-like motif pattern, where:
+        - The first residue is "E"
+        - The third residue can be any of ["L", "V", "I", "F", "M", "T"]
+    - Distance between the ESI-like motif and the stop codon of the protein, where:
+        - The distance is greater than `mindistance` and less than `maxdistance`
+    - Presence of glycine (G) and proline (P) residues within a 20 amino acid window around the ESI-like motif, where:
+        - The count of glycine and proline residues is either 2 or 3
+    - Presence of acidic residues (E or D) at positions +7 or +8 from the ESI-like motif
+    - Presence of aspartate (D) and glutamate (E) residues within a 28 amino acid window around the ESI-like motif, where:
+        - The count of aspartate and glutamate residues combined is 7 or more
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        mindistance (int): Minimum distance between the ESI-like motif and the stop codon.
+        maxdistance (int): Maximum distance between the ESI-like motif and the stop codon.
+        outputfile (str): Path to the output file where filtered proteins will be written in FASTA format.
+
+    Returns:
+        list: List of SeqRecord objects representing the proteins that meet all the lenient criteria for the ESI-like motif.
+
+    """
+
     output= []
     
     residue1 = "E"

@@ -4,6 +4,16 @@ from Bio.SeqRecord import SeqRecord
 
 #turn an input string into a dictionary with index as key and residue as value
 def dictify(in_seq):
+    """
+    Convert an input string into a dictionary with index as the key and residue as the value.
+
+    Args:
+        in_seq (str): Input sequence string.
+
+    Returns:
+        dict: Dictionary with index as the key and residue as the value.
+
+    """
     
     dict = {}
     count = 0
@@ -14,6 +24,16 @@ def dictify(in_seq):
 
 #replace illegal amino acid residues in protein sequences
 def remove_illegal_chars(text):
+    """
+    Replace illegal amino acid residues in protein sequences.
+
+    Args:
+        text (str): Input sequence string.
+
+    Returns:
+        str: Sequence string with illegal residues replaced.
+
+    """
     text = text.replace("B", "N")
     text = text.replace("Z", "Q")
     text = text.replace("J", "I")
@@ -22,6 +42,16 @@ def remove_illegal_chars(text):
 
 #remove duplicate sequences
 def remove_duplicates(proteinlist):
+    """
+    Remove duplicate sequences from a list of protein records.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of SeqRecord objects with duplicate sequences removed.
+
+    """
     
     seen = []
     all_records = []
@@ -35,6 +65,18 @@ def remove_duplicates(proteinlist):
 
 #trim all residues before the first putative start codon and remove dupes - takes an input list of potential start codon residues
 def trim_residues(proteinlist, startcodons, outputfile):
+    """
+    Trim all residues before the first putative start codon and remove duplicates.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+        startcodons (list): List of potential start codon residues.
+        outputfile (str): Output file name for writing the trimmed sequences.
+
+    Returns:
+        list: List of trimmed SeqRecord objects representing the proteins.
+
+    """
 
     trimmed_seqs = []
 

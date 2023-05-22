@@ -8,6 +8,16 @@ residue3 = ["L", "V", "I", "F", "M", "T"]
 lenienthydrophobic = ["I", "V", "L", "F", "M", "W", "T", "A"]
 
 def get_esi_mws(proteinlist):
+    """
+    Calculate the molecular weights of motifs surrounding specific residues in a specific pattern in proteins.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated molecular weights.
+
+    """
 
     esi_mws = []
 
@@ -30,6 +40,16 @@ def get_esi_mws(proteinlist):
     return esi_mws
 
 def get_esi_pi(proteinlist):
+    """
+    Calculate the isoelectric points of motifs surrounding specific residues in a specific pattern in proteins.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated isoelectric points.
+
+    """
 
     esi_pis = []
 
@@ -52,6 +72,16 @@ def get_esi_pi(proteinlist):
     return esi_pis
 
 def get_eight_residue_pi(proteinlist):
+    """
+    Calculate the isoelectric points of eight-residue motifs in proteins.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated isoelectric points.
+
+    """
 
     pis = []
 
@@ -70,6 +100,16 @@ def get_eight_residue_pi(proteinlist):
     return pis
 
 def get_eight_residue_mw(proteinlist):
+    """
+    Calculate the molecular weights of eight-residue motifs in proteins.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated molecular weights.
+
+    """
 
     residues_mws = []
 
@@ -88,6 +128,16 @@ def get_eight_residue_mw(proteinlist):
     return residues_mws
 
 def get_esi_hydrophobicity(proteinlist):
+    """
+    Calculate the hydrophobicity percentages of motifs surrounding specific residues in a specific pattern in proteins.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated hydrophobicity percentages.
+
+    """
 
     hydros = []
 
@@ -112,6 +162,16 @@ def get_esi_hydrophobicity(proteinlist):
     return hydros
 
 def get_eight_residue_hydrophobicity(proteinlist):
+    """
+    Calculate the hydrophobicity percentages of eight-residue motifs in proteins.
+
+    Args:
+        proteinlist (list): List of SeqRecord objects representing the proteins.
+
+    Returns:
+        list: List of calculated hydrophobicity percentages.
+
+    """
 
     hydros = []
 
